@@ -4,4 +4,21 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
     </style>
+
+    <style name="neutral_theme" parent="AppTheme">
+
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:titleTextAppearance">@style/neutral_theme_title</item>
+
+    </style>
+
+    <style name="neutral_theme_title" parent="TextAppearance.AppCompat">
+
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/Theme.AppCompat.Light</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
 </resources>
